@@ -16,7 +16,7 @@ const Pricing = () => {
     },
     {
       id: 2,
-      price: "$110",
+      price: "110",
       type: "Standard",
       features: [
         "Detailed Consultation (1 hour)",
@@ -28,7 +28,7 @@ const Pricing = () => {
     },
     {
       id: 3,
-      price: "$300",
+      price: "300",
       type: "Premium",
       features: [
         "Comprehensive Consultation (2 hours)",
