@@ -70,7 +70,7 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">About</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/setting.svg"
@@ -93,7 +93,7 @@ const HomeLight = () => {
                       alt="paper"
                     />
                     <span className="menu_content">News</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"
