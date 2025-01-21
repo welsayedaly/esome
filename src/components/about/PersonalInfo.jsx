@@ -26,22 +26,10 @@ const PersonalInfo = () => {
         },
         {
           id: 4,
-          name: "Email",
-          content: (
-            <>
-              <a href="mailto:m@wesa.dev">m@wesa.dev</a>
-            </>
-          ),
+          name: "Nationality",
+          content: "German",
         },
-        {
-          id: 5,
-          name: "Phone",
-          content: (
-            <>
-              <a href="tel:+49 171 3340421">+49 (0) 171 3340421</a>
-            </>
-          ),
-        },
+        
       ],
     },
     {
@@ -50,21 +38,16 @@ const PersonalInfo = () => {
       info: [
         {
           id: 1,
-          name: "Nationality",
-          content: "German",
-        },
-        {
-          id: 2,
           name: "Study",
           content: "University of Applied Sciences, Worms",
         },
         {
-          id: 3,
+          id: 2,
           name: "Degree",
           content: "Master",
         },
         {
-          id: 4,
+          id: 3,
           name: "Interest",
           content: "Running | Reading | New Technologies | AI",
         },
