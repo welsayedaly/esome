@@ -50,6 +50,12 @@ const Resume = () => {
           institute: "Innovations Park",
           degree: "Web Designer",
         },
+        {
+          id: 4,
+          year: "2012 - 2016",
+          institute: "Innovations Park",
+          degree: "Web Designer",
+        },
       ],
     },
   ];

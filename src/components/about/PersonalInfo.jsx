@@ -1,4 +1,7 @@
 import React from "react";
+const currentDate = new Date();
+const birthYear = 1980;
+const age = currentDate.getFullYear() - birthYear;
 
 const PersonalInfo = () => {
   const personalInfoContent = [
@@ -14,7 +17,7 @@ const PersonalInfo = () => {
         {
           id: 2,
           name: "Age",
-          content: "45",
+          content: age.toString(),
         },
         {
           id: 3,
@@ -63,7 +66,7 @@ const PersonalInfo = () => {
         {
           id: 4,
           name: "Interest",
-          content: "Playing Football",
+          content: "Running | Reading | New Technologies | AI",
         },
         {
           id: 5,
