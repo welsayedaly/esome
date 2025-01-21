@@ -19,7 +19,7 @@ const NotFound = () => {
             {/* END LOGO */}
             <div className="copyright">
               <p>
-                &copy; 2021 Tokyo <br /> Created by
+                &copy; 2025 wesa <br /> Created by
                 <a
                   href="https://wesa.dev"
                   target="_blank"
@@ -57,13 +57,13 @@ const NotFound = () => {
         <footer className="footer-wrapper">
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo Created by
+              &copy; 2025 wesa Created by
               <a
-                href="https://themeforest.net/user/ib-themes"
+                href="https://wesa.dev"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ib-Themes
+                wesa
               </a>
             </p>
           </div>
