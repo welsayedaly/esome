@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./assets/scss/style.scss";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -13,6 +14,7 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
+    <Analytics />
   </HelmetProvider>
 );
 // If you want to start measuring performance in your app, pass a function
