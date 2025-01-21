@@ -46,7 +46,7 @@ const Resume = () => {
         },
         {
           id: 3,
-          year: "01.2019-07.2019",
+          year: "01.2019-06.2019",
           institute: "Trusted Shops GmbH, Cologne, Germany",
           degree: "Lead Software Developer",
         },
