@@ -31,7 +31,7 @@ const News = () => {
             <div className="title_flex">
               <div className="left">
                 <span>News</span>
-                <h3>Latest News</h3>
+                <h3>Latest Blogs</h3>
               </div>
             </div>
           </div>
