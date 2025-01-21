@@ -25,7 +25,7 @@ const NotFound = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Ib-Themes
+                  Walid El Sayed Aly
                 </a>
               </p>
             </div>
