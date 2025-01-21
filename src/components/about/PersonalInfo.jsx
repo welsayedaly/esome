@@ -9,24 +9,24 @@ const PersonalInfo = () => {
         {
           id: 1,
           name: "Birthday",
-          content: "01.07.1990",
+          content: "26.02.1980",
         },
         {
           id: 2,
           name: "Age",
-          content: "32",
+          content: "45",
         },
         {
           id: 3,
           name: "Address",
-          content: "Ave 11, New York, USA",
+          content: "Montabaur, Germany",
         },
         {
           id: 4,
           name: "Email",
           content: (
             <>
-              <a href="mailto:tokyo@gmail.com">tokyo@gmail.com</a>
+              <a href="mailto:m@wesa.dev">m@wesa.dev</a>
             </>
           ),
         },
@@ -35,7 +35,7 @@ const PersonalInfo = () => {
           name: "Phone",
           content: (
             <>
-              <a href="tel:+77 022 177 05 05">+77 022 177 05 05</a>
+              <a href="tel:+49 171 3340421">+49 (0) 171 3340421</a>
             </>
           ),
         },
@@ -48,12 +48,12 @@ const PersonalInfo = () => {
         {
           id: 1,
           name: "Nationality",
-          content: "USA",
+          content: "German",
         },
         {
           id: 2,
           name: "Study",
-          content: "Univercity of Texas",
+          content: "University of Applied Sciences, Worms",
         },
         {
           id: 3,

@@ -19,8 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Walid El Sayed Aly</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+            Experienced freelance software architect and DevOps & cloud consultant with expertise in developing scalable Java backend applications and AWS cloud solutions. Leading the conceptualization and design of complex IT systems. Leveraging my extensive expertise to deliver tailored on-premises and cloud-based solutions.
             </p>
             {/* END JOB */}
             <Social />

@@ -21,7 +21,7 @@ const NotFound = () => {
               <p>
                 &copy; 2021 Tokyo <br /> Created by
                 <a
-                  href="https://themeforest.net/user/ib-themes"
+                  href="https://wesa.dev"
                   target="_blank"
                   rel="noreferrer"
                 >
