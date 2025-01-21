@@ -5,36 +5,36 @@ const Pricing = () => {
     {
       id: 1,
       price: "0",
-      type: "Free",
+      type: "Free Consultation",
       features: [
-        "Premium Icons",
-        "Quality Logo",
-        "Stock Images",
-        "Free Support",
+        "Initial Consultation (30 mins)",
+        "Basic Needs Assessment",
+        "General Cloud Strategy Overview",
+        "Email Support (1 query)",
       ],
       isPopular: "",
     },
     {
       id: 2,
-      price: "30",
-      type: "Basic",
+      price: "$110",
+      type: "Standard",
       features: [
-        "Premium Icons",
-        "Quality Logo",
-        "Stock Images",
-        "Free Support",
+        "Detailed Consultation (1 hour)",
+        "Custom Cloud Strategy Plan",
+        "Migration Guidance",
+        "Priority Email Support",
       ],
       isPopular: "Popular",
     },
     {
       id: 3,
-      price: "70",
+      price: "$300",
       type: "Premium",
       features: [
-        "Premium Icons",
-        "Quality Logo",
-        "Stock Images",
-        "Free Support",
+        "Comprehensive Consultation (2 hours)",
+        "End-to-End Cloud Implementation Guidance",
+        "Performance Optimization Strategy",
+        "Dedicated Support for 30 Days",
       ],
       isPopular: "",
     },
@@ -62,11 +62,11 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <div className="tokyo_tm_button" data-position="left">
+            {/* <div className="tokyo_tm_button" data-position="left">
               <a href="#">
                 <span>Purchase</span>
               </a>
-            </div>
+            </div> */}
             {item.isPopular ? (
               <>
                 <span className="popular">Popular</span>

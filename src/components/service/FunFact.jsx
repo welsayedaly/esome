@@ -4,12 +4,12 @@ const FunFact = () => {
   const funFactContent = [
     {
       id: 1,
-      number: "777+",
+      number: "77+",
       meta: "Projects Completed",
     },
     {
       id: 2,
-      number: "3K",
+      number: "30+",
       meta: "Happy Clients",
     },
     {

@@ -16,44 +16,38 @@ const Services = () => {
     {
       id: 1,
       no: "01",
-      title: "Web Design",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Cloud Solutions",
+      text: `Scale your business with Extra-Something's cost-cutting cloud solution (AWS, Microsoft Azure, Google Cloud)...`,
     },
     {
       id: 2,
       no: "02",
-      title: "Content Writing",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "DevOps",
+      text: `By supporting teams in the use of processes and tools, we enable exceptional collaboration...`,
     },
     {
       id: 3,
       no: "03",
-      title: "Brand Identity",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Enterprise Software Development",
+      text: `Customized development of enterprise applications Increase productivity and reduce costs Save time and labor ...`,
     },
     {
       id: 4,
       no: "04",
-      title: "Live Chat",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Serverless and Cloud Migration",
+      text: `The innovative pay-per-use model of serverless services means that you pay nothing if your applications are not used....`,
     },
     {
       id: 5,
       no: "05",
-      title: "After Effects",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Web Development",
+      text: `With 12 years of experience in web design and development for both B2B and B2C clients, our team of over 20 developers has successfully implemented more than 120 projects, from prototypes to complex software solutions. ...`,
     },
     {
       id: 6,
       no: "06",
-      title: "Mobile App",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Mobile App Development ",
+      text: `Are you looking for the best company to develop customized apps for your brand?..`,
     },
   ];
 
@@ -65,11 +59,11 @@ const Services = () => {
             <span className="number">{item.no}</span>
             <h3 className="title">{item.title}</h3>
             <p className="text">{item.text}</p>
-            <div className="tokyo_tm_read_more">
+            {/* <div className="tokyo_tm_read_more">
               <a href="#" onClick={toggleModal}>
                 <span>Read More</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </li>
       ))}

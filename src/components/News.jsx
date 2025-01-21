@@ -38,6 +38,8 @@ const News = () => {
           {/* END TITLE */}
 
           <ul>
+
+
             <li data-aos="fade-right" data-aos-duration="1200">
               <div className="list_inner">
                 <div className="image" onClick={toggleModalOne}>
@@ -53,14 +55,14 @@ const News = () => {
                 <div className="details">
                   <div className="extra">
                     <p className="date">
-                      By <a href="#">Alex Watson</a>
-                      <span>05 April 2021</span>
+                      By <a href="#">Walid El Sayed Aly</a>
+                      <span>28 Oct 2024</span>
                     </p>
                   </div>
                   {/* END EXTRA */}
 
                   <h3 className="title" onClick={toggleModalOne}>
-                    Format releases a new tool that enables direct video hosting
+                    Why We Should Stop Using the Spring Framework
                   </h3>
                   <div className="tokyo_tm_read_more">
                     <a onClick={toggleModalOne}>
@@ -100,77 +102,28 @@ const News = () => {
                         <div className="details">
                           <div className="extra">
                             <p className="date">
-                              By <a href="#">Alex Watson</a>
-                              <span>05 April 2021</span>
+                              By <a href="#">Walid El Sayed Aly</a>
+                              <span>28 Oct 2024</span>
                             </p>
                           </div>
                           <h3 className="title">
-                            Format releases a new tool that enables direct video
-                            hosting
+                            Why We Should Stop Using the Spring Framework
                           </h3>
                         </div>
                         {/* END DETAILS */}
                         <div className="main_content ">
                           <div className="descriptions">
                             <p className="bigger">
-                              Just because we can't get out and about like we
-                              normally would, doesn’t mean we have to stop
-                              taking pictures. There’s still plenty you can do,
-                              provided you're prepared to use some imagination.
-                              Here are a few ideas to keep you shooting until
-                              normal life resumes.
+                              The Spring Framework has long dominated the Java landscape, promising convenience, quick setup, and flexibility through dependency injection and powerful abstractions. But does it deliver on those promises without long-term trade-offs? Here’s why Spring, often seen as a quick win for developers, could end up causing more harm than good.
                             </p>
                             <p>
-                              Most photographers love to shoot the unusual, and
-                              you don’t get much more unusual than These
-                              Unprecedented Times. Right now everything counts
-                              as out of the ordinary. There are a number of
-                              remarkable things about these lockdown days that
-                              are worth photographing now so we can remember
-                              them when it is all over.
+                              <h2>The Illusion of Convenience</h2>
+                              Spring markets itself as a framework that makes development easy and fast, especially with its annotations and code generation. These features may save time in initial setup, but as projects grow, so do the hidden costs. Spring’s quick wins often backfire, adding significant maintenance overhead as debugging and enhancements become increasingly challenging.
+
+                              Spring’s abstraction can lead to a steep learning curve if you need to do anything outside of Spring’s typical use cases. Often, this means diving deep into Spring’s configuration options or “magic” methods, making debugging and troubleshooting a lengthy ordeal.
                             </p>
                             <p>
-                              Streets empty that are usually busy are remarkable
-                              and can evoke the sense of historical pictures
-                              from before the invention of the motorcar. Other
-                              things that are different at the moment will be
-                              queues to get into stores and the lines marked out
-                              on the floor to show how far apart we should be.
-                            </p>
-                            <div className="quotebox">
-                              <div className="icon">
-                                <img
-                                  className="svg"
-                                  src="assets/img/svg/quote.svg"
-                                  alt="tumb"
-                                />
-                              </div>
-                              <p>
-                                Most photographers find it hard to see
-                                interesting pictures in places in which they are
-                                most familiar. A trip somewhere new seems always
-                                exactly what our photography needed, as shooting
-                                away from home consistently inspires us to new
-                                artistic heights.
-                              </p>
-                            </div>
-                            {/* END QUOTEBOX */}
-                            <p>
-                              Pretend everything is new and that you haven’t
-                              seen it before, and then you will be free to
-                              notice the leading lines, the places where one
-                              edge meets another in delightful geometric
-                              harmony, and how the ordinary things in the
-                              kitchen are transformed when the light is on or
-                              off.
-                            </p>
-                            <p>
-                              The trick here is to look slowly, and then look
-                              again. Take the time to look in detail and to look
-                              at the same thing from different angles, with
-                              different light, long lenses and wide lenses. Then
-                              move to the left a bit. You may never feel the
-                              need to leave the house again.
+                              <a href="https://medium.com/@welsayedaly/why-we-should-stop-using-the-spring-framework-6261ee321376">read more</a>
                             </p>
                           </div>
                           {/* END DESCRIPTION */}
@@ -212,14 +165,14 @@ const News = () => {
                 <div className="details">
                   <div className="extra">
                     <p className="date">
-                      By <a href="#">Brook Kennedy</a>
-                      <span>22 March 2021</span>
+                      By <a href="#">Walid El Sayed Aly</a>
+                      <span>13 Dec 2021</span>
                     </p>
                   </div>
                   {/* END EXTRA */}
 
                   <h3 className="title" onClick={toggleModalTwo}>
-                    Sony announced two new full frame cameras with zero fanfare
+                    12 Scanners to Find Security Vulnerabilities and Misconfigurations in Kubernetes
                   </h3>
                   <div className="tokyo_tm_read_more">
                     <a onClick={toggleModalTwo}>
@@ -257,78 +210,27 @@ const News = () => {
                         <div className="details">
                           <div className="extra">
                             <p className="date">
-                              By <a href="#">Brook Kennedy</a>
-                              <span>22 March 2021</span>
+                              By <a href="#">Walid El Sayed Aly</a>
+                              <span>12 Dec 2021</span>
                             </p>
                           </div>
                           <h3 className="title">
-                            Sony announced two new full frame cameras with zero
-                            fanfare
+                            12 Scanners to Find Security Vulnerabilities and Misconfigurations in Kubernetes
                           </h3>
                         </div>
                         {/* END DETAILS */}
                         <div className="main_content ">
                           <div className="descriptions">
                             <p className="bigger">
-                              Just because we can't get out and about like we
-                              normally would, doesn’t mean we have to stop
-                              taking pictures. There’s still plenty you can do,
-                              provided you're prepared to use some imagination.
-                              Here are a few ideas to keep you shooting until
-                              normal life resumes.
+                              Kubernetes has become the de facto operating system of the cloud. Developers love K8s because Kubernetes makes it easy for developers to package their applications into portable microservices.
+
+                              More than 90% of companies dealing with cloud and microservices orchestration are going towards Kubernetes. There are more than 24,441 companies that use Kubernetes.
                             </p>
                             <p>
-                              Most photographers love to shoot the unusual, and
-                              you don’t get much more unusual than These
-                              Unprecedented Times. Right now everything counts
-                              as out of the ordinary. There are a number of
-                              remarkable things about these lockdown days that
-                              are worth photographing now so we can remember
-                              them when it is all over.
+                              <a href="https://medium.com/towardsdev/12-scanners-to-find-security-vulnerabilities-and-misconfigurations-in-kubernetes-332a738d076d">read more</a>
+
                             </p>
-                            <p>
-                              Streets empty that are usually busy are remarkable
-                              and can evoke the sense of historical pictures
-                              from before the invention of the motorcar. Other
-                              things that are different at the moment will be
-                              queues to get into stores and the lines marked out
-                              on the floor to show how far apart we should be.
-                            </p>
-                            <div className="quotebox">
-                              <div className="icon">
-                                <img
-                                  className="svg"
-                                  src="assets/img/svg/quote.svg"
-                                  alt="quote"
-                                />
-                              </div>
-                              <p>
-                                Most photographers find it hard to see
-                                interesting pictures in places in which they are
-                                most familiar. A trip somewhere new seems always
-                                exactly what our photography needed, as shooting
-                                away from home consistently inspires us to new
-                                artistic heights.
-                              </p>
-                            </div>
-                            {/* END QUOTEBOX */}
-                            <p>
-                              Pretend everything is new and that you haven’t
-                              seen it before, and then you will be free to
-                              notice the leading lines, the places where one
-                              edge meets another in delightful geometric
-                              harmony, and how the ordinary things in the
-                              kitchen are transformed when the light is on or
-                              off.
-                            </p>
-                            <p>
-                              The trick here is to look slowly, and then look
-                              again. Take the time to look in detail and to look
-                              at the same thing from different angles, with
-                              different light, long lenses and wide lenses. Then
-                              move to the left a bit. You may never feel the
-                              need to leave the house again.
-                            </p>
+
                           </div>
                           <div className="news_share">
                             <span>Share:</span>
@@ -368,13 +270,13 @@ const News = () => {
                 <div className="details">
                   <div className="extra">
                     <p className="date">
-                      By <a href="#">Paola Atkins</a>
-                      <span>15 Feb 2021</span>
+                      By <a href="#">Walid El Sayed Aly</a>
+                      <span>10 Nov 2021</span>
                     </p>
                   </div>
 
                   <h3 className="title" onClick={toggleModalThree}>
-                    Why every photographer should shoot film, even in 2021
+                    Create AWS EC2 instance with SSH access via GitHub CI/CD Actions and Terraform Cloud.
                   </h3>
                   <div className="tokyo_tm_read_more">
                     <a onClick={toggleModalThree}>
@@ -411,77 +313,23 @@ const News = () => {
                         <div className="details">
                           <div className="extra">
                             <p className="date">
-                              By <a href="#">Paola Atkins</a>
+                              By <a href="#">Walid El Sayed Aly</a>
                               <span>15 Feb 2021</span>
                             </p>
                           </div>
                           <h3 className="title">
-                            Why every photographer should shoot film, even in
-                            2021
+                            Create AWS EC2 instance with SSH access via GitHub CI/CD Actions and Terraform Cloud.
                           </h3>
                         </div>
                         <div className="main_content ">
                           <div className="descriptions">
                             <p className="bigger">
-                              Just because we can't get out and about like we
-                              normally would, doesn’t mean we have to stop
-                              taking pictures. There’s still plenty you can do,
-                              provided you're prepared to use some imagination.
-                              Here are a few ideas to keep you shooting until
-                              normal life resumes.
+                              In this article, I will focus on how to create an AWS EC2 instance using the GitHub CI/CD action and the Terraform Cloud app. In the process, I will provide SSH access to the new AWS EC2 instance using Terraform Cloud.
                             </p>
                             <p>
-                              Most photographers love to shoot the unusual, and
-                              you don’t get much more unusual than These
-                              Unprecedented Times. Right now everything counts
-                              as out of the ordinary. There are a number of
-                              remarkable things about these lockdown days that
-                              are worth photographing now so we can remember
-                              them when it is all over.
+                              <a href="https://medium.com/towards-aws/create-aws-ec2-instance-with-ssh-access-via-github-ci-cd-actions-and-terraform-cloud-b003ac52b8cb">read more</a>
                             </p>
-                            <p>
-                              Streets empty that are usually busy are remarkable
-                              and can evoke the sense of historical pictures
-                              from before the invention of the motorcar. Other
-                              things that are different at the moment will be
-                              queues to get into stores and the lines marked out
-                              on the floor to show how far apart we should be.
-                            </p>
-                            <div className="quotebox">
-                              <div className="icon">
-                                <img
-                                  className="svg"
-                                  src="assets/img/svg/quote.svg"
-                                  alt="quore"
-                                />
-                              </div>
-                              <p>
-                                Most photographers find it hard to see
-                                interesting pictures in places in which they are
-                                most familiar. A trip somewhere new seems always
-                                exactly what our photography needed, as shooting
-                                away from home consistently inspires us to new
-                                artistic heights.
-                              </p>
-                            </div>
-                            {/* END QUOTEBOX */}
-                            <p>
-                              Pretend everything is new and that you haven’t
-                              seen it before, and then you will be free to
-                              notice the leading lines, the places where one
-                              edge meets another in delightful geometric
-                              harmony, and how the ordinary things in the
-                              kitchen are transformed when the light is on or
-                              off.
-                            </p>
-                            <p>
-                              The trick here is to look slowly, and then look
-                              again. Take the time to look in detail and to look
-                              at the same thing from different angles, with
-                              different light, long lenses and wide lenses. Then
-                              move to the left a bit. You may never feel the
-                              need to leave the house again.
-                            </p>
+
                           </div>
                           <div className="news_share">
                             <span>Share:</span>
@@ -519,14 +367,14 @@ const News = () => {
                 <div className="details">
                   <div className="extra">
                     <p className="date">
-                      By <a href="#">Kevin Stone</a>
-                      <span>22 Jan 2021</span>
+                      By <a href="#">Walid El Sayed Aly</a>
+                      <span>25 May 2020</span>
                     </p>
                   </div>
                   {/* END EXTRA */}
 
                   <h3 className="title" onClick={toggleModalFour}>
-                    Stay creative in lockdown with these fun photo projects
+                    Deploy MongoDB Replica Sets in Kubernetes with HELM
                   </h3>
                   <div className="tokyo_tm_read_more">
                     <a onClick={toggleModalFour}>
@@ -564,13 +412,12 @@ const News = () => {
                         <div className="details">
                           <div className="extra">
                             <p className="date">
-                              By <a href="#toggleButton">Kevin Stone</a>
-                              <span>22 Jan 2021</span>
+                              By <a href="#toggleButton">Walid El Sayed Aly</a>
+                              <span>25 May 2020</span>
                             </p>
                           </div>
                           <h3 className="title">
-                            Stay creative in lockdown with these fun photo
-                            projects
+                            Deploy MongoDB Replica Sets in Kubernetes with HELM
                           </h3>
                         </div>
                         {/* END DETAILS */}
@@ -578,65 +425,16 @@ const News = () => {
                         <div className="main_content ">
                           <div className="descriptions">
                             <p className="bigger">
-                              Just because we can't get out and about like we
-                              normally would, doesn’t mean we have to stop
-                              taking pictures. There’s still plenty you can do,
-                              provided you're prepared to use some imagination.
-                              Here are a few ideas to keep you shooting until
-                              normal life resumes.
+                              In this tutorial, I will show you how to deploy two or more Replica Set MongoDB instances running on Kubernetes.
+
+                              MongoDB is one of the most popular document stores available both as a fully managed cloud service and for the deployment on self-managed infrastructures.
+
+                              Kubernetes is the industry-leading container orchestration platform.
                             </p>
                             <p>
-                              Most photographers love to shoot the unusual, and
-                              you don’t get much more unusual than These
-                              Unprecedented Times. Right now everything counts
-                              as out of the ordinary. There are a number of
-                              remarkable things about these lockdown days that
-                              are worth photographing now so we can remember
-                              them when it is all over.
+                              <a href="https://medium.com/towardsdev/deploy-mongodb-replica-sets-in-kubernetes-with-helm-e8562fb3e7ed">read more</a>
                             </p>
-                            <p>
-                              Streets empty that are usually busy are remarkable
-                              and can evoke the sense of historical pictures
-                              from before the invention of the motorcar. Other
-                              things that are different at the moment will be
-                              queues to get into stores and the lines marked out
-                              on the floor to show how far apart we should be.
-                            </p>
-                            <div className="quotebox">
-                              <div className="icon">
-                                <img
-                                  className="svg"
-                                  src="assets/img/svg/quote.svg"
-                                  alt="quote"
-                                />
-                              </div>
-                              <p>
-                                Most photographers find it hard to see
-                                interesting pictures in places in which they are
-                                most familiar. A trip somewhere new seems always
-                                exactly what our photography needed, as shooting
-                                away from home consistently inspires us to new
-                                artistic heights.
-                              </p>
-                            </div>
-                            {/* END QUOTEBOX */}
-                            <p>
-                              Pretend everything is new and that you haven’t
-                              seen it before, and then you will be free to
-                              notice the leading lines, the places where one
-                              edge meets another in delightful geometric
-                              harmony, and how the ordinary things in the
-                              kitchen are transformed when the light is on or
-                              off.
-                            </p>
-                            <p>
-                              The trick here is to look slowly, and then look
-                              again. Take the time to look in detail and to look
-                              at the same thing from different angles, with
-                              different light, long lenses and wide lenses. Then
-                              move to the left a bit. You may never feel the
-                              need to leave the house again.
-                            </p>
+
                           </div>
                           <div className="news_share">
                             <span>Share:</span>
@@ -653,6 +451,110 @@ const News = () => {
               </div>
               {/* END LIST INNER */}
             </li>
+
+
+
+            <li data-aos="fade-right" data-aos-duration="1200">
+              <div className="list_inner">
+                <div className="image" onClick={toggleModalOne}>
+                  <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage: "url(assets/img/news/5.jpg)",
+                    }}
+                  ></div>
+                </div>
+                {/* END IMAGE */}
+                <div className="details">
+                  <div className="extra">
+                    <p className="date">
+                      By <a href="#">Walid El Sayed Aly</a>
+                      <span>28 Aug 2018</span>
+                    </p>
+                  </div>
+                  {/* END EXTRA */}
+
+                  <h3 className="title" onClick={toggleModalOne}>
+                    Are you sure that your passwords are secure?
+                  </h3>
+                  <div className="tokyo_tm_read_more">
+                    <a onClick={toggleModalOne}>
+                      <span>Read More</span>
+                    </a>
+                  </div>
+                  {/* END READ MORE BUTTON */}
+                </div>
+                {/* END DETAILS */}
+
+                {/* START MODAL */}
+                <Modal
+                  isOpen={isOpen}
+                  onRequestClose={toggleModalOne}
+                  contentLabel="My dialog"
+                  className="mymodal"
+                  overlayClassName="myoverlay"
+                  closeTimeoutMS={500}
+                >
+                  <div className="tokyo_tm_modalbox_news">
+                    <button className="close-modal" onClick={toggleModalOne}>
+                      <img src="assets/img/svg/cancel.svg" alt="close icon" />
+                    </button>
+                    {/* END CLOSE ICON */}
+                    <div className="box_inner">
+                      <div className="description_wrap scrollable">
+                        <div className="image">
+                          <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                          <div
+                            className="main"
+                            style={{
+                              backgroundImage: "url(assets/img/news/5.jpg)",
+                            }}
+                          ></div>
+                        </div>
+                        {/* END IMAGE */}
+                        <div className="details">
+                          <div className="extra">
+                            <p className="date">
+                              By <a href="#">Walid El Sayed Aly</a>
+                              <span>28 Aug 2018</span>
+                            </p>
+                          </div>
+                          <h3 className="title">
+                            Are you sure that your passwords are secure?
+                          </h3>
+                        </div>
+                        {/* END DETAILS */}
+                        <div className="main_content ">
+                          <div className="descriptions">
+                            <p className="bigger">
+                              Access data or credentials are environment-specific configuration settings whose management requires strict methods for safeguarding by their users. A storage of these credentials in various environments that is both gapless and secure as well as a confidential handling represents a challenge for access authorization and secure recording.
+                              Modern methods simplify these processes and allow a secure management and storage of passwords in different environments for different apps. One of those methods is the use of HashiCorp Vault, which centrally saves and manages passwords by use of various mechanisms, such as key/value or dynamic processes.
+                              Also, Spring offers a high-level abstraction of HashiCorp Vault — which is called “Spring Vault” -, which features a client-side support for existing Spring applications and thus simplifies the transition to HashiCorp Vault. Spring Vault offers REST interfaces for the access to the passwords that are saved in HashiCorp. A short explanation of the use of these two new technologies illustrates their benefits.
+                            </p>
+                            <p>
+                              <a href="https://medium.com/@welsayedaly/are-you-sure-that-your-passwords-are-secure-8a29d053c773">read more</a>
+                            </p>
+                          </div>
+                          {/* END DESCRIPTION */}
+                          <div className="news_share">
+                            <span>Share:</span>
+                            <Social />
+                            {/* END SOCIAL SHARE */}
+                          </div>
+                          {/* END NEWS SHARE */}
+                        </div>
+                      </div>
+                    </div>
+                    {/* END BOX INNER */}
+                  </div>
+                  {/* END MODALBOX NEWS */}
+                </Modal>
+                {/* END MODAL */}
+              </div>
+            </li>
+
+
           </ul>
         </div>
       </div>

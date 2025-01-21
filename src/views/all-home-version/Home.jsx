@@ -71,7 +71,7 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">About</span>
                   </Tab>
-                  {/* <Tab>
+                  <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/setting.svg"
@@ -80,12 +80,12 @@ const HomeLight = () => {
                     <span className="menu_content">Service</span>
                   </Tab>
                   <Tab>
-                    <img
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
-                    <span className="menu_content">Portfolio</span>
+                    <span className="menu_content">Portfolio</span> */}
                   </Tab>
                   <Tab>
                     <img
@@ -94,11 +94,8 @@ const HomeLight = () => {
                       alt="paper"
                     />
                     <span className="menu_content">Blog</span>
-                  </Tab>  */}
-                  <Tab> </Tab>
-                  <Tab> </Tab>
-                  <Tab> </Tab>
-                  <Tab>
+                </Tab>  
+                <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/mail.svg"
