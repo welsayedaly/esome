@@ -1,4 +1,4 @@
-# wesa.dev React PWalid ersonal Portfolio 
+# wesa.dev React Walid ersonal Portfolio 
 
 Awesome React Personal Portfolio Template
 
