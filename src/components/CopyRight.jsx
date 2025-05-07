@@ -6,7 +6,7 @@ const CopyRight = () => {
       <p>
         &copy; {new Date().getFullYear()} wesa.dev <br /> Created by
         <a
-          href="https://wesa.dev"
+          href="https://linktr.ee/welsayedaly"
           target="_blank"
           rel="noreferrer"
         >

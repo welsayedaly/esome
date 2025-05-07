@@ -1,0 +1,30 @@
+/* Share Button Styles */
+.tokyo_tm_read_more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tokyo_tm_read_more a.share-icon {
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  margin-left: 10px;
+}
+
+.tokyo_tm_read_more a.share-icon:hover {
+  opacity: 1;
+}
+
+.tokyo_tm_read_more a.share-icon img {
+  width: 16px;
+  height: 16px;
+}
+
+/* Dark mode */
+.tokyo_tm_all_wrap[data-color="dark"] {
+  .tokyo_tm_read_more a.share-icon img {
+    filter: brightness(0.8) invert(1);
+  }
+}
