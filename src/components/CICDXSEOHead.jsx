@@ -60,90 +60,30 @@ const CICDXSEOHead = () => {
       {/* Additional SEO meta tags */}
       <meta name="robots" content="index, follow" />
       <meta name="author" content="Walid El Sayed Aly" />
-      <link rel="canonical" href="https://wesa.dev/#cicdx" />
+      <link rel="canonical" href="https://wesa.dev/cicdx" />
       
-      {/* Google Analytics 4 (GA4) - Replace GA_MEASUREMENT_ID with your actual ID */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7QS407D82"></script>
+      {/* CICDX-Specific Conversion Events */}
       <script>
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'GA_MEASUREMENT_ID');
+          // CICDX Page View Event
+          if (typeof gtag !== 'undefined') {
+            gtag('event', 'cicdx_page_view', {
+              'event_category': 'CICDX',
+              'event_label': 'CICDX Product Page',
+              'value': 1
+            });
+            
+            // Google Ads Conversion Events for CICDX
+            gtag('event', 'conversion', {
+              'send_to': 'AW-17047641910/CONVERSION_LABEL',
+              'value': 1.0,
+              'currency': 'USD',
+              'event_category': 'CICDX',
+              'event_label': 'CICDX Page View'
+            });
+          }
         `}
       </script>
-      
-      {/* Google Ads Conversion Tracking - Replace AW-CONVERSION_ID with your actual ID */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17047641910"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-CONVERSION_ID');
-        `}
-      </script>
-      
-      {/* Enhanced Conversion Tracking */}
-      <script>
-        {`
-          gtag('config', 'AW-CONVERSION_ID', {
-            'allow_enhanced_conversions': true
-          });
-        `}
-      </script>
-      
-      {/* Google Analytics Conversion Events */}
-      <script>
-        {`
-          gtag('event', 'conversion_event_page_view', {
-            'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL',
-            'value': 1.0,
-            'currency': 'USD'
-          });
-        `}
-      </script>
-      
-      <script>
-        {`
-          gtag('event', 'conversion_event_page_view_1', {
-            'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL_2',
-            'value': 1.0,
-            'currency': 'USD'
-          });
-        `}
-      </script>
-      
-      {/* Google Tag Manager (Optional - Replace GTM-XXXXXXX with your container ID) */}
-      <script>
-        {`
-          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GT-W6KS5D8B');
-        `}
-      </script>
-      
-      {/* Facebook Pixel (Optional - Replace YOUR_PIXEL_ID) */}
-      <script>
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', 'YOUR_PIXEL_ID');
-          fbq('track', 'PageView');
-        `}
-      </script>
-      <noscript>
-        <img height="1" width="1" style={{display: 'none'}} 
-             src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1" />
-      </noscript>
     </Helmet>
   );
 };
