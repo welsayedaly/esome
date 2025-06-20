@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ServiceMain from "../components/service/ServiceMain";
 import CopyRight from "../components/CopyRight";
 import PageTitle from "../components/PageTitle";
+import ChatwayScript from "../components/ChatwayScript";
 
 const ServicesPage = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -20,6 +21,7 @@ const ServicesPage = () => {
   return (
     <>
       <PageTitle title="Services - Cloud & DevOps Consulting" />
+      <ChatwayScript />
       
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (

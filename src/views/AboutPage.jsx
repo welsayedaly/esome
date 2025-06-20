@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import About from "../components/about/AboutMain";
 import CopyRight from "../components/CopyRight";
 import PageTitle from "../components/PageTitle";
+import ChatwayScript from "../components/ChatwayScript";
 
 const AboutPage = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -20,6 +21,7 @@ const AboutPage = () => {
   return (
     <>
       <PageTitle title="About Walid El Sayed Aly - Kubernetes & AWS Expert" />
+      <ChatwayScript />
       
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (

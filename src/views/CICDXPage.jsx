@@ -3,6 +3,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import CICDX from "../components/CICDX";
 import CopyRight from "../components/CopyRight";
+import ChatwayScript from "../components/ChatwayScript";
 
 const CICDXPage = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -18,6 +19,7 @@ const CICDXPage = () => {
 
   return (
     <>
+      <ChatwayScript />
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
           <>
