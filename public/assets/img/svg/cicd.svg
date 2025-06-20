@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- CI/CD Pipeline Icon -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 268.765 268.765" style="enable-background:new 0 0 268.765 268.765;" xml:space="preserve">
+<g id="CICD">
+	<g>
+		<!-- Pipeline Base -->
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M30,80 L238,80 C245,80 250,85 250,92 L250,176 C250,183 245,188 238,188 L30,188 C23,188 18,183 18,176 L18,92 C18,85 23,80 30,80 Z M30,95 L238,95 L238,173 L30,173 L30,95 Z"/>
+		
+		<!-- Pipeline Stages -->
+		<circle cx="60" cy="134" r="15" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+		<circle cx="134" cy="134" r="15" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+		<circle cx="208" cy="134" r="15" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+		
+		<!-- Arrows between stages -->
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M85,134 L105,134 M100,129 L105,134 L100,139"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M159,134 L179,134 M174,129 L179,134 L174,139"/>
+		
+		<!-- Source Code (left) -->
+		<rect x="30" y="40" width="40" height="30" rx="5" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M50,75 L50,80"/>
+		
+		<!-- Deployment (right) -->
+		<rect x="198" y="198" width="40" height="30" rx="5" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M218,188 L218,198"/>
+		
+		<!-- Integration symbols -->
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M55,129 L55,139 M60,134 L50,134"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M129,129 L129,139 M134,134 L124,134"/>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M203,129 L203,139 M208,134 L198,134"/>
+	</g>
+</g>
+</svg>

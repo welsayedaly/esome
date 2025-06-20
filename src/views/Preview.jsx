@@ -63,15 +63,6 @@ const Preview = () => {
               </div>
               {/* END LEFT DEMO */}
 
-              <div className="left">
-                <Link to="/rtl-home-light" target="_blank">
-                  <div className="desc">
-                    <img src="assets/img/intro/light-rtl.png" alt="demo" />
-                    <h3 className="title">RTL Light & Dark Demo</h3>
-                  </div>
-                </Link>
-              </div>
-              {/* END LEFT DEMO */}
             </Slider>
           </div>
         </div>

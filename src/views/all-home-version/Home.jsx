@@ -1,15 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Home from "../../components/Home";
-import About from "../../components/about/AboutMain";
-import Portfolio from "../../components/PortfolioCreative";
-import News from "../../components/News";
-import ServiceMain from "../../components/service/ServiceMain";
-import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
-import PageTitle from "../../components/PageTitle";
+import LandingPageSEO from "../../components/LandingPageSEO";
 
 const HomeLight = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -25,8 +19,7 @@ const HomeLight = () => {
 
   return (
     <>
-      <PageTitle title="Extra Something IT Consulting" />
-      {/* End page title for seo */}
+      <LandingPageSEO />
 
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
@@ -40,140 +33,106 @@ const HomeLight = () => {
         )}
       </button>
 
-      <Tabs>
-        <TabList>
-          {/* START LEFT MENU CONTENT */}
-          <div className="leftpart">
-            <div className="leftpart_inner">
-              <div className="logo">
-                <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
-              </div>
-              {/* END LOGO */}
+      <div className="tokyo_tm_all_wrap" data-magic-cursor="show">
+        {/* START LEFT MENU CONTENT */}
+        <div className="leftpart">
+          <div className="leftpart_inner">
+            <div className="logo">
+              <Link className="navbar-brand" to="/">
+                <img src="/assets/img/logo/dark.png" alt="brand" />
+              </Link>
+            </div>
+            {/* END LOGO */}
 
-              <div className="menu">
-                <ul>
-                  <Tab>
+            <div className="menu">
+              <ul>
+                <li className="active">
+                  <Link to="/home">
                     <img
                       className="svg"
                       src="/assets/img/svg/home-run.svg"
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
-                  </Tab>
-                  
-                  <Tab>
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link to="/cicdx">
                     <img
                       className="svg"
-                      src="/assets/img/svg/avatar.svg"
-                      alt="avatar"
+                      src="/assets/img/svg/cicd.svg"
+                      alt="cicdx"
                     />
-                    <span className="menu_content">About</span>
-                  </Tab>
-                  <Tab>
+                    <span className="menu_content">CICDX</span>
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link to="/services">
                     <img
                       className="svg"
                       src="/assets/img/svg/setting.svg"
-                      alt="avatar"
+                      alt="services"
                     />
-                    <span className="menu_content">Service</span>
-                  </Tab>
-                  <Tab>
-                    {/* <img
-                      className="svg"
-                      src="/assets/img/svg/briefcase.svg"
-                      alt="briefcase"
-                    />
-                    <span className="menu_content">Portfolio</span> */}
-                  </Tab>
-                  <Tab>
+                    <span className="menu_content">Services</span>
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link to="/blog">
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
-                      alt="paper"
+                      alt="blog"
                     />
                     <span className="menu_content">Blog</span>
-                </Tab>  
-                <Tab>
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link to="/about">
+                    <img
+                      className="svg"
+                      src="/assets/img/svg/avatar.svg"
+                      alt="about"
+                    />
+                    <span className="menu_content">About</span>
+                  </Link>
+                </li>
+                
+                <li>
+                  <Link to="/contact">
                     <img
                       className="svg"
                       src="/assets/img/svg/mail.svg"
-                      alt="mail"
+                      alt="contact"
                     />
-                    <span className="menu_content"> Contact</span>
-                  </Tab>
-                </ul>
-              </div>
-              {/* END MENU */}
-
-              <CopyRight />
-              {/* END COPYRIGHT */}
+                    <span className="menu_content">Contact</span>
+                  </Link>
+                </li>
+              </ul>
             </div>
+            {/* END MENU */}
+
+            <CopyRight />
+            {/* END COPYRIGHT */}
           </div>
-          {/* END LEFT MENU CONTENT */}
-        </TabList>
-        {/* END SIDEBAR TABLIST */}
+        </div>
+        {/* END LEFT MENU CONTENT */}
 
         {/* START RIGHT PART CONTENT */}
         <div className="rightpart">
           <div className="rightpart_in">
             <div className="tokyo_tm_section">
-              <TabPanel>
-                <div data-aos="fade-right" data-aos-duration="1200">
-                  <Home />
-                </div>
-              </TabPanel>
-              {/* END HOME MENU TAB CONTENT */}
-
-              <TabPanel>
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
-                  data-aos-delay="100"
-                >
-                  <About />
-                </div>
-              </TabPanel>
-              {/* END ABOUT MENU TAB CONTENT */}
-
-              <TabPanel>
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
-                  data-aos-delay="100"
-                >
-                  <ServiceMain />
-                </div>
-              </TabPanel>
-              {/* END ABOUT MENU TAB CONTENT */}
-
-              <TabPanel>
-                <Portfolio />
-              </TabPanel>
-              {/* END PORTFOLIO MENU TAB CONTENT */}
-
-              <TabPanel>
-                <News />
-              </TabPanel>
-              {/* END NEWS MENU TAB CONTENT */}
-
-              <TabPanel>
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
-                  data-aos-delay="200"
-                >
-                  <Contact />
-                </div>
-              </TabPanel>
-              {/* END CONTACT MENU TAB CONTENT */}
+              <div data-aos="fade-right" data-aos-duration="1200">
+                <Home />
+              </div>
             </div>
           </div>
         </div>
         {/* END RIGHT PART CONTENT */}
-      </Tabs>
-      {/* END TABS */}
+      </div>
     </>
   );
 };
