@@ -163,6 +163,18 @@ const LandingPageSEO = () => {
       {/* Local Business verification */}
       <meta name="google-site-verification" content="" />
       
+      {/* Google tag (gtag.js) */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17047641910"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-17047641910');
+        `}
+      </script>
+      
       {/* Google Analytics 4 (GA4) */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7QS407D82"></script>
       <script>
@@ -171,17 +183,6 @@ const LandingPageSEO = () => {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-D7QS407D82');
-        `}
-      </script>
-      
-      {/* Google Ads Conversion Tracking */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17047641910"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-17047641910');
         `}
       </script>
       
