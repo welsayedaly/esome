@@ -7,6 +7,7 @@ import BlogStructuredData from "./BlogStructuredData";
 import RelatedPosts from "./RelatedPosts";
 import Breadcrumbs from "./Breadcrumbs";
 import ShareButtons from "./ShareButtons";
+import GoogleTagManager from "../GoogleTagManager";
 
 const BlogPage = () => {
   const { slug } = useParams();
@@ -114,6 +115,7 @@ const BlogPage = () => {
 
   return (
     <>
+      <GoogleTagManager />
       <Helmet>
         <title>{blogData.title || 'Blog Post'} | Walid El Sayed Aly</title>
         <meta name="description" content={(seoData && seoData.description) || blogData.title || 'Blog Post'} />

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import News from "../components/News";
 import CopyRight from "../components/CopyRight";
 import PageTitle from "../components/PageTitle";
+import GoogleTagManager from "../components/GoogleTagManager";
 
 const BlogListPage = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -20,6 +21,7 @@ const BlogListPage = () => {
   return (
     <>
       <PageTitle title="Blog - DevOps, Cloud & Kubernetes Insights" />
+      <GoogleTagManager />
       
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
